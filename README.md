@@ -12,5 +12,5 @@ The rule `no-extraneous-import` warns about `~configurations/foo` import,
 although according to the path defined in the `tsconfig.json` 
 this is an internal import.
 
-This only happens for paths that contain the `~` or `@` character at the beginning.
+This only happens for paths that contain the `~` or `@` character at the beginning. \
 E.g. alias `#configurations/*` is working as expected, but `~configurations/*` is not.
