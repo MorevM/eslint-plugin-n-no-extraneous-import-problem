@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"~configurations/*": ["./src/configurations/*"],
+			"@configurations/*": ["./src/configurations/*"],
+			// Just to show it works with such character at the beginning.
+			"#configurations/*": ["./src/configurations/*"],
+		}
+	}
+}
